@@ -1,0 +1,26 @@
+
+
+body {
+  background-color:rgb(255, 255, 255);
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+}
+
+main {
+  max-width: 720px;
+}
+
+.arena-text,
+.arena-image,
+.arena-media {
+  margin: 2rem 0;
+}
+
+.arena-image img,
+.arena-media iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
