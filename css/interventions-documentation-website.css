@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "Venus+Acier";
-  src: url("../fonts/Venus+Acier.otf") format("opentype");
+  font-family: "Venus Acier";
+  src: url("../fonts/venus-acier.otf") format("opentype");
 }
 
 
 body {
   background-color:rgb(255, 255, 255);
-  font-family: "Venus+Acier";
+  font-family: "Venus Acier";
   line-height: 1.6;
   margin: 0;
   padding: 2rem;
@@ -30,5 +30,5 @@ main {
 }
 
 h1 {
-  font-family: "Venus+Acier";
+  font-family: "Venus Acier";
 }
