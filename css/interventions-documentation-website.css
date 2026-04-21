@@ -12,6 +12,14 @@ body {
   left: 1rem;
 }
 
+header,
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+
 nav {
   list-style-type: none;
   text-transform: lowercase;
