@@ -3,13 +3,35 @@
   src: url("../fonts/venus-acier.otf") format("opentype");
 }
 
-
 body {
   background-color:rgb(255, 255, 255);
   font-family: "Venus Acier";
-  line-height: 1.6;
+  line-height: 1.5;
   margin: 0;
   padding: 2rem;
+  left: 1rem;
+}
+
+nav {
+  list-style-type: none;
+  text-transform: lowercase;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 1rem; 
+  right: 1rem;
+  background-color: #ffffff;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 main {
@@ -19,7 +41,7 @@ main {
 .arena-text,
 .arena-image,
 .arena-media {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .arena-image img,
@@ -27,8 +49,30 @@ main {
   max-width: 100%;
   height: auto;
   display: block;
+  border: 1px dashed #000000;
 }
 
-h1 {
+.arena-text a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.arena-text a:hover {
+  text-decoration: underline;
+}
+
+h1 a {
   font-family: "Venus Acier";
+  color: inherit;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: .5rem; 
+  left: 1rem;
+}
+
+h2 {
+  font-family: "Venus Acier";
+  text-transform: uppercase;
 }
